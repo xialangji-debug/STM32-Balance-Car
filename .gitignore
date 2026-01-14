@@ -1,0 +1,26 @@
+# Keil 生成的垃圾文件夹
+Objects/
+Listings/
+MDK-ARM/DebugConfig/
+MDK-ARM/RTE/
+
+# 编译产生的中间文件
+*.o
+*.d
+*.crf
+*.dep
+*.map
+*.htm
+*.lnp
+*.sct
+*.lst
+
+# 最终生成文件 (视情况，如果你想让别人直接刷机，可以保留 hex，否则也忽略)
+*.axf
+# *.hex  <-- 如果你想保留hex文件给别人直接用，就把这行删掉
+
+# 临时备份文件
+*.bak
+*.uvguix.*
+*.scvd
+JLinkLog.txt
